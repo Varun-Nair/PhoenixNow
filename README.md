@@ -12,9 +12,9 @@ PhoenixNow is a website and Android mobile application that allows ECG students 
 
 ## Important Files
 
-* [Database](https://github.com/varunnair18/PhoenixNow/blob/master/PhoenixNow/model.py)
-* [Routes](https://github.com/varunnair18/PhoenixNow/blob/master/PhoenixNow/regular.py)
-* [Admin Routes](https://github.com/varunnair18/PhoenixNow/blob/master/PhoenixNow/admin.py)
-* [REST API](https://github.com/varunnair18/PhoenixNow/blob/master/PhoenixNow/backend.py)
+* [Database](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/model.py)
+* [Routes](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/regular.py)
+* [Admin Routes](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/admin.py)
+* [REST API](https://github.com/chadali/PhoenixNow/blob/master/PhoenixNow/backend.py)
   
 ![Homepage](https://i.imgur.com/x7viLyI.jpg)
