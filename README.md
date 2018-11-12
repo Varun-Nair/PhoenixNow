@@ -1,25 +1,20 @@
 # PhoenixNow
-This app facilitates signins and roll calls for schools that aren't especially centralized.
+PhoenixNow is a website and Android mobile application that allows ECG students to sign in remotely for attendance.
 
-The currently planned features are
+## Current Features
 
-* User accounts
-* Signins by geographic locations
-* Android support
+* Admin/User authentication
+* Admin Portal
+* User Attendance History
+* SSL Encryption
+* REST API / Android Mobile APP
+* Hosted on a AWS EC2 Instance
 
-# Setting up the dev environment
-These instructions assume that you're using a Debian-based Linux distribution
+## Important Files
 
-`sudo apt-get install build-essential pip3-python libffi-dev python-dev`
-
-`sudo pip3 install -r requirements.txt`
-
-To run, execute `python app.py`
-
-# Planned Deployment Features
-
-* TDD based development
-* Dockerfiles for deployment and local development (allows for easier Windows
-  development with Docker Toolbox)
-* Fabric/Ansible for server setup and deployment of Dockerfiles
-* Continuous testing integration
+* [Database](https://github.com/varunnair18/PhoenixNow/blob/master/PhoenixNow/model.py)
+* [Routes](https://github.com/varunnair18/PhoenixNow/blob/master/PhoenixNow/regular.py)
+* [Admin Routes](https://github.com/varunnair18/PhoenixNow/blob/master/PhoenixNow/admin.py)
+* [REST API](https://github.com/varunnair18/PhoenixNow/blob/master/PhoenixNow/backend.py)
+  
+![Homepage](https://i.imgur.com/x7viLyI.jpg)
